@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8002318399782257937}
   - component: {fileID: 7856529185411271962}
-  - component: {fileID: 4360199745834147350}
+  - component: {fileID: 8511144983006751036}
   m_Layer: 0
   m_Name: PlayerArt
   m_TagString: Untagged
@@ -195,24 +195,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4360199745834147350
-Animator:
-  serializedVersion: 5
+--- !u!114 &8511144983006751036
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8655768652196576183}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0eb3e9766f1ce9445816d703d99543c4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855ca3be7c7e71d44b1a112b60bcaeff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderer: {fileID: 0}
+  neutralSprite: {fileID: -310257258, guid: b88e43ff72711fd409063e5228d451ee, type: 3}
+  tiltLeft: {fileID: -682075837, guid: b88e43ff72711fd409063e5228d451ee, type: 3}
+  turnLeft: {fileID: 536886846, guid: b88e43ff72711fd409063e5228d451ee, type: 3}
+  tiltRight: {fileID: 1921469776, guid: b88e43ff72711fd409063e5228d451ee, type: 3}
+  turnRight: {fileID: 439274411, guid: b88e43ff72711fd409063e5228d451ee, type: 3}
+  turnThreshold: 0.7
+  tiltThreshold: 0.2
