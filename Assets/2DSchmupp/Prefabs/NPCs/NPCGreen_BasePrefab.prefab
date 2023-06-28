@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 7247209411929645842}
   - component: {fileID: 6316492519148678184}
   - component: {fileID: 7690878363376579359}
+  - component: {fileID: 5402023146870595058}
   m_Layer: 0
   m_Name: NPCGreen_BasePrefab
   m_TagString: Untagged
@@ -202,3 +203,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.100000024}
   serializedVersion: 2
   m_Radius: 0.37
+--- !u!114 &5402023146870595058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7161992183559241862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b675d472e3ddfee408622a9fcbd1c091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTriggerEnter_Event:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionEnter_Event:
+    m_PersistentCalls:
+      m_Calls: []
+  destroyOnCollision: 1
+  destroyOnTrigger: 0
+  spawnOnCollision: 1
+  spawnOnTrigger: 0
+  objectToSpawn: {fileID: 7506890194209598262, guid: 428a0aac3bcc525478ca95d0df4bb303, type: 3}
+  DEBUG_MODE: 0

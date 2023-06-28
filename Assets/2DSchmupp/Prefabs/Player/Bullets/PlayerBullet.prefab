@@ -208,4 +208,7 @@ MonoBehaviour:
       m_Calls: []
   destroyOnCollision: 1
   destroyOnTrigger: 1
-  DEBUG_MODE: 1
+  spawnOnCollision: 1
+  spawnOnTrigger: 1
+  objectToSpawn: {fileID: 7506890194209598262, guid: a8baf382e9dbea04d95041732f700a66, type: 3}
+  DEBUG_MODE: 0
