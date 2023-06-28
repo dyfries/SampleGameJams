@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2111620193715279634}
   - component: {fileID: 3187508020079749988}
   - component: {fileID: 2823485815984724626}
+  - component: {fileID: 7086094536361299557}
   m_Layer: 0
   m_Name: PlayerBullet
   m_TagString: Untagged
@@ -187,3 +188,24 @@ MonoBehaviour:
   initialImpulseForce: {x: 0, y: 1}
   addForceOverTime: 0
   overTimeForce: {x: 0, y: 0}
+--- !u!114 &7086094536361299557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549360425892931516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b675d472e3ddfee408622a9fcbd1c091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTriggerEnter_Event:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionEnter_Event:
+    m_PersistentCalls:
+      m_Calls: []
+  destroyOnCollision: 1
+  destroyOnTrigger: 1
+  DEBUG_MODE: 1
